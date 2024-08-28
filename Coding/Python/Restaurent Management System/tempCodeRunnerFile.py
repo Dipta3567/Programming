@@ -1,0 +1,1 @@
+item_name=input("Enter item name : ")

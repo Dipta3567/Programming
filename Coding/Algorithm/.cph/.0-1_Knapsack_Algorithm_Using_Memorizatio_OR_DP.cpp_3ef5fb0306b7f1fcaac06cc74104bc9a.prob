@@ -1,0 +1,1 @@
+{"name":"Local: 0-1_Knapsack_Algorithm_Using_Memorizatio_OR_DP","url":"d:\\Algorithm\\0-1_Knapsack_Algorithm_Using_Memorizatio_OR_DP.cpp","tests":[{"id":1711900128558,"input":"4\n2 3 4 5\n1 3 5 3\n8","output":"8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Algorithm\\0-1_Knapsack_Algorithm_Using_Memorizatio_OR_DP.cpp","group":"local","local":true}

@@ -1,0 +1,102 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+}
+.logo
+{
+    width: 80px;
+}
+li{
+    list-style: none;
+}
+li:hover
+{
+    color: yellow;
+    cursor: pointer;
+}
+.menu-container
+{
+    display: flex;
+    gap: 15px;
+}
+.banner-img
+{
+    width: 400px;
+}
+.banner-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    
+}
+.banner-left
+{
+    width: 400px;
+   line-height: 2;
+}
+.btn
+{
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.hire
+{
+    background-color: rgb(47, 30, 64);
+}
+.project
+{
+    background-color: rgb(19, 104, 201);
+}
+.title
+{
+    font-size: 50px;
+
+}
+.service-container
+{
+    
+    margin-top: 50px;
+    
+}
+.service-card
+{
+    height: 400px;
+    width:  300px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 7px;
+    text-align: center;
+
+}
+.service-title
+{
+    font-size: 30px;
+    text-align: center;
+}
+.service-img
+{
+ width: 100%;
+ padding-top: 20px;
+}
+.service-card-btn
+{
+    padding: 15px 25px;
+    background-color: gray;
+    border: none;
+    font-size: 20px;
+    color: white;
+    
+}

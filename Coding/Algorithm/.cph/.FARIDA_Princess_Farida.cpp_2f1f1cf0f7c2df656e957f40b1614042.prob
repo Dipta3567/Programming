@@ -1,0 +1,1 @@
+{"name":"Local: FARIDA_Princess_Farida","url":"d:\\Algorithm\\FARIDA_Princess_Farida.cpp","tests":[{"id":1711986100871,"input":"2\n5\n1 2 3 4 5\n1\n10","output":"Case 1: 9\nCase 2: 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Algorithm\\FARIDA_Princess_Farida.cpp","group":"local","local":true}
