@@ -1,0 +1,22 @@
+.box
+{
+    width : 100px;
+    width: 100px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.box-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input
+{
+    
+    padding: 10px;
+    margin: 10px;
+}
