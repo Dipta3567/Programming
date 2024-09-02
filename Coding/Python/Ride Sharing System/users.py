@@ -30,13 +30,6 @@ def generate_licence(type):
     license = ''.join(random.choice(char) for _ in range(3))
     return type+'_'+license
 
-def generate_rating(rider):
-    if not rider.rating_history:
-        return 5;
-    sum=0
-    for i in rider.rating_history:
-        sum+=int(i)
-    return sum/rider.total_ride
     
     
 class Rider(User):
@@ -59,8 +52,8 @@ class Rider(User):
         self.customer_id=None
         self.ride_req=None
         self.location=None
-        self.rating_history=[]
-        self.rating=generate_rating(self)
+        
+        
 
     def add_user(self,user):
         self.customer_id=user
@@ -358,8 +351,8 @@ class Customer(User):
         rider=uber.find_rider(rider_id)
         if rider:
             print(f"You have been assigned a rider.\n")
-            print("Rider_Name\t\tPhone\t\tRider_Location\t\tLicenence\t\tRating")
-            print(f"{rider.name}\t\t{rider.phone}\t\t{rider.location}\t\t{rider.licence}\t\t{rider.rating}")
+            print("Rider_Name\t\tPhone\t\tRider_Location\t\tLicenence")
+            print(f"{rider.name}\t\t{rider.phone}\t\t{rider.location}\t\t{rider.licence}")
         else:
             self.rider_id=None
             self.request_status=False

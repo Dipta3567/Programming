@@ -93,28 +93,28 @@ class Ride_Sharing:
             print("*****************Rider List****************\n")
             print("ID\t\tName\t\tEmail\t\tPhone\t\tNID\t\tAddress\t\tVehicle_Type\t\tLicenence")
             for emp in self.riders:
-                print(f"{emp.id}\t\t{emp.name}\t\t{emp.email}\t\t{emp.phone}\t\t{emp.nid}\t\t{emp.address}\t\t{emp.vehicle}\t\t{emp.licence}")
+                print(f"{emp.rider_id}\t\t{emp.name}\t\t{emp.email}\t\t{emp.phone}\t\t{emp.nid}\t\t{emp.address}\t\t{emp.vehicle}\t\t{emp.licence}")
 
         elif (opt==2):
             print("*****************Car Riders List****************\n")
             print("ID\t\tName\t\tEmail\t\tPhone\t\tNID\t\tAddress\t\tVehicle_Type\t\tLicenence")
             for emp in self.riders:
                 if (emp.vehicle=="car"):
-                    print(f"{emp.id}\t\t{emp.name}\t\t{emp.email}\t\t{emp.phone}\t\t{emp.nid}\t\t{emp.address}\t\t{emp.vehicle}\t\t{emp.licence}")
+                    print(f"{emp.rider_id}\t\t{emp.name}\t\t{emp.email}\t\t{emp.phone}\t\t{emp.nid}\t\t{emp.address}\t\t{emp.vehicle}\t\t{emp.licence}")
 
         elif (opt==3):
             print("*****************Bike Riders List****************\n")
             print("ID\t\tName\t\tEmail\t\tPhone\t\tNID\t\tAddress\t\tVehicle_Type\t\tLicenence")
             for emp in self.riders:
                 if (emp.vehicle=="bike"):
-                    print(f"{emp.id}\t\t{emp.name}\t\t{emp.email}\t\t{emp.phone}\t\t{emp.nid}\t\t{emp.address}\t\t{emp.vehicle}\t\t{emp.licence}")
+                    print(f"{emp.rider_id}\t\t{emp.name}\t\t{emp.email}\t\t{emp.phone}\t\t{emp.nid}\t\t{emp.address}\t\t{emp.vehicle}\t\t{emp.licence}")
 
         elif (opt==4):
             print("*****************Cng Riders List****************\n")
             print("ID\t\tName\t\tEmail\t\tPhone\t\tNID\t\tAddress\t\tVehicle_Type\t\tLicenence")
             for emp in self.riders:
                 if (emp.vehicle=="cng"):
-                    print(f"{emp.id}\t\t{emp.name}\t\t{emp.email}\t\t{emp.phone}\t\t{emp.nid}\t\t{emp.address}\t\t{emp.vehicle}\t\t{emp.licence}")
+                    print(f"{emp.rider_id}\t\t{emp.name}\t\t{emp.email}\t\t{emp.phone}\t\t{emp.nid}\t\t{emp.address}\t\t{emp.vehicle}\t\t{emp.licence}")
 
     
     def view_customers(self):
@@ -124,7 +124,7 @@ class Ride_Sharing:
         print("*****************All customers List****************\n")
         print("ID\t\tName\t\tEmail\t\tPhone\t\tNID\t\tAddress")
         for emp in self.customers:
-            print(f"{emp.id}\t\t{emp.name}\t\t{emp.email}\t\t{emp.phone}\t\t{emp.nid}\t\t{emp.address}")
+            print(f"{emp.user_id}\t\t{emp.name}\t\t{emp.email}\t\t{emp.phone}\t\t{emp.nid}\t\t{emp.address}")
 
     
     def view_income_history(self):

@@ -108,7 +108,7 @@ def rider_system(rider):
 
         elif op==2:
             id=input("Enter Request ID : ")
-            rider.accept_request(uber,id)
+            rider.accecpt_request(uber,id)
 
         elif op==3:
             rider.completed_request(uber)
