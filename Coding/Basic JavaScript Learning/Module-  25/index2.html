@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1 id="mainText">SHOW HERE :</h1>
+
+<input id="input1" type="text">
+<br> <br>
+
+<button id="submit" >SUBMIT</button>
+
+<hr> 
+
+<h1>ADD COMMENTS</h1>
+
+<div class="comment">
+    <p>HERE ARE THE COMMENTS :</p>
+</div>
+
+<input id="text" type="text"  >
+
+<br><br>
+
+<button id="add" >ADD</button>
+
+
+<script>
+
+
+document.getElementById("submit").addEventListener('click',
+
+    function(){
+     const getText = document.getElementById('input1');
+     const text = getText.value;
+ 
+     const heading = document.getElementById('mainText');
+ 
+      heading.innerText = text ;
+ 
+     getText.value = ' ';
+ 
+    }
+ )
+
+document.getElementById("add").addEventListener('click',function(){
+
+    const get = document.getElementById("text");
+    const getting = get.value ;
+
+    const head1 = document.getElementById('comment');
+    const creating_para = document.createElement('p');
+    creating_para.innerText = getting ;
+
+    head1.appendChild(creating_para);
+
+    
+})
+
+</script>
+
+
+
+
+
+    <!-- js  -->
+     <script src="./JS/second.js"></script>
+</body>
+</html>

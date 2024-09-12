@@ -27,7 +27,7 @@
 
 //1st way
 
-//  document.getElementById("handle").addEventListener("click",(event) => {
+//=  document.getElementById("handle").addEventListener("click",(event) => {
     
 //      //console.log("Hello Boss");
 
@@ -67,7 +67,8 @@ document.getElementById("handle").addEventListener("click",(event) => {
     for (const element of allcoment)
     {
         element.addEventListener("click", (e) => {
-            console.log(e.target);
+            //console.log(e.target.parentNode);
+            e.target.parentNode.removeChild(element);
         })
     }
 

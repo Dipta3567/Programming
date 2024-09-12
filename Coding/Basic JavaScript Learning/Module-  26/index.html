@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEOMETRY </title>
+
+  <!-- DAISY UI + TAILWIND  -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body>
+    
+
+    <header>
+
+    </header>
+
+<main>
+
+
+ <div class="flex flex-col md:flex-row m-4">
+
+
+   <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+   
+    <!-- cards -->
+    <div class="card w-96 bg-base-100 shadow-xl">
+        <figure><img src="./images/triangle.png" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">TRIANGLE</h2>
+          <p class="text-xl font-bold"> 0.5 X b X h </p>
+
+        <!-- input field -->
+
+        <div class="mt-5">
+            <input id="base-id" class="w-24 border-2 solid fill-black" placeholder="b" type="text"> <span>cm</span>
+
+        <input id="height-id" class="w-24 border-2 solid fill-black" placeholder="h" type="text"> <span>cm</span>
+
+        <h3 class="mt-5 text-xl font-bold"> AREA : <span id="t-area"></span> <span>cm<sup>2</sup></span> </h3>
+
+        </div>
+
+
+          <div class="card-actions mt-10 ">
+            <button onclick="tiangleCal()" class="btn btn-primary w-full">CALCULATE</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <figure><img src="./images/rectangle.png" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">RECTANGLE</h2>
+          <p class="text-xl font-bold"> 0.5 X w X l </p>
+
+        <!-- input field -->
+
+        <div class="mt-5">
+            <input id="width-id" class="w-24 border-2 solid fill-black" placeholder="w" type="text"> <span>cm</span>
+
+        <input id="length-id" class="w-24 border-2 solid fill-black" placeholder="l" type="text"> <span>cm</span>
+
+        <h3 class="mt-5 text-xl font-bold"> AREA : <span id="r-area"></span> <span>cm<sup>2</sup></span> </h3>
+
+        </div>
+
+
+          <div class="card-actions mt-10 ">
+            <button onclick="recArea()" class="btn btn-primary w-full">CALCULATE</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      
+
+
+
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <figure><img src="./images/rhombus.png" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">ROMBOS</h2>
+          <p class="text-xl font-bold"> 0.5 X w X l </p>
+
+        <!-- input field -->
+
+        <div class="mt-5">
+            <input id="width_1" class="w-24 border-2 solid fill-black" placeholder="w" type="text"> <span>cm</span>
+
+        <input id="length_1" class="w-24 border-2 solid fill-black" placeholder="l" type="text"> <span>cm</span>
+
+        <h3 class="mt-5 text-xl font-bold"> AREA : <span id="rom-area"></span> <span>cm<sup>2</sup></span> </h3>
+
+        </div>
+
+
+          <div class="card-actions mt-10 ">
+            <button onclick="romArea()" class="btn btn-primary w-full">CALCULATE</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+     
+
+
+
+
+   </div>
+
+
+
+   <!-- area -->
+
+   <div class="w-96 border-2 border-gray-200 m-4">
+    <h1 class="text-center p-5 font-bold text-2xl">AREA CALCULATOR</h1>
+   </div>
+
+
+ </div>
+
+
+
+</main>
+
+<!-- js linking -->
+
+<script src="./js/triangle.js"></script>
+<script src="./js/rec.js"></script>
+<script src="./js/rom.js"></script>
+
+</body>
+</html>
