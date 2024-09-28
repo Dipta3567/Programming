@@ -76,3 +76,47 @@ document.getElementById("handle").addEventListener("click",(event) => {
 
 
 })
+
+//------------------------------------------
+
+// API - Intro
+// API - Application Programming Interface
+// API - A set of rules that allows one software application to communicate with another software application.
+
+
+// API-jsonplace holder
+// https://jsonplaceholder.typicode.com/
+
+fetch("https://jsonplaceholder.typicode.com/users")
+.then(res => res.json())
+.then(data => {
+    displayData(data)
+
+})
+.catch((err) => {
+    console.log(err);
+})
+
+
+const displayData = (userData) =>
+{
+    const container= document.getElementById("userData-container");
+
+    userData.forEach(user =>
+    {
+        const div = document.createElement("div");
+        div.classList.add("user");
+
+        div.innerHTML = `
+        
+        <h4>Title</h4>
+        <p>Description</p>
+        <button> Details </button>
+
+        `
+        container.appendChild(div);
+    })
+
+}
+
+ 

@@ -20,3 +20,19 @@ input
     padding: 10px;
     margin: 10px;
 }
+
+.user
+{
+    padding: 20px;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.user-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
