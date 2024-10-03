@@ -1,17 +1,29 @@
-1.  pip install Django
+For Setup Globally: 
 
-2. pip install pipenv
+	1.  pip install Django
 
-3. pipenv --version
+	2.  pip install pipenv
 
-4. python -m venv .venv
+	3. pipenv --version
 
-5. .venv\Scripts\Activate
 
-6. Deactivate  ( FOR EXIT )
+For Virtual Setup : 
 
-7. django-admin startproject project_1
 
-8. cd project_1
+	1. python -m venv .room1
 
-9. python manage.py runserver   ( Sometime it will not work so for that : pip install django then run the command )
+	2. cd .room1
+
+	3. Scripts\Activate
+
+	4. django-admin startproject project_1  // for project
+
+	5. cd project_1
+	
+	6. pip install Django
+
+   	7. django-admin startapp first_app // for app
+
+	8. python manage.py runserver
+
+	9. Deactivate  ( FOR EXIT )
