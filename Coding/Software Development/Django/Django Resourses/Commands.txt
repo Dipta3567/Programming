@@ -1,0 +1,17 @@
+1.  pip install Django
+
+2. pip install pipenv
+
+3. pipenv --version
+
+4. python -m venv .venv
+
+5. .venv\Scripts\Activate
+
+6. Deactivate  ( FOR EXIT )
+
+7. django-admin startproject project_1
+
+8. cd project_1
+
+9. python manage.py runserver   ( Sometime it will not work so for that : pip install django then run the command )
