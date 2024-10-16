@@ -1,0 +1,5 @@
+1. https://www.geeksforgeeks.org/django-template-filters/
+
+2. https://earthly.dev/blog/django-template-filters/
+
+3. https://www.w3schools.com/django/ref_tags_filter.php
