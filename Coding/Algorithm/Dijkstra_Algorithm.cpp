@@ -384,3 +384,209 @@ int main()
 
 
 */
+
+
+/*
+
+
+******************************************   Max DIstance in Dijajtra**********************************************
+ ////////////////              BUT IT WILL GET TLE           ///////////////
+
+#include <bits/stdc++.h>
+using namespace std;
+#define optimize() ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define ll long long int
+#define pi pair<ll, ll>
+
+const ll N = 1e5 + 5;
+vector<pi> v[N];
+ll dis[N];
+
+class cmp
+{
+public:
+    bool operator()(pi a, pi b)
+    {
+        return a.second > b.second; // Max-heap for maximum distance
+    }
+};
+
+void dijkstra(int src)
+{
+    priority_queue<pi, vector<pi>, cmp> pq; // Priority queue for max distance
+    pq.push({src, 0});
+    dis[src] = 0; // Start from 0 cost at the source
+
+    while (!pq.empty())
+    {
+        pi p = pq.top();
+        pq.pop();
+        int node = p.first;
+        int cost = p.second;
+
+        for (pi u : v[node])
+        {
+            int child_node = u.first;
+            int child_cost = u.second;
+
+            // Update if the new distance is greater
+            if (cost + child_cost > dis[child_node])
+            {
+                dis[child_node] = cost + child_cost;
+                pq.push({child_node, dis[child_node]});
+            }
+        }
+    }
+}
+
+int main()
+{
+    optimize();
+    ll t;
+    cin >> t;
+    cin.ignore(); // Handle trailing newline after t
+    for (ll k = 1; k <= t; k++)
+    {
+        string line;
+        getline(cin, line); // Read blank line between test cases
+        ll n, e;
+        cin >> n >> e;
+
+        // Clear graph and reset distances
+        for (int i = 0; i < n; i++)
+        {
+            v[i].clear();
+            dis[i] = LLONG_MIN; // Initialize distances to the minimum
+        }
+
+        vector<ll> cost(n);
+        for (int i = 0; i < n; i++)
+            cin >> cost[i];
+
+        // Input edges and costs
+        while (e--)
+        {
+            int a, b;
+            cin >> a >> b;
+            v[a].push_back({b, cost[b]}); // Edge from a to b with learning cost
+        }
+
+        // Run Dijkstra for maximum distance
+        dijkstra(0);
+
+        // Find the node with the maximum distance
+        ll mx = LLONG_MIN, index = 0;
+        for (int i = 0; i < n; i++)
+        {
+            if (dis[i] > mx)
+            {
+                mx = dis[i];
+                index = i;
+            }
+        }
+
+        cout << "Case " << k << ": " << mx << " " << index << endl;
+    }
+    return 0;
+}
+
+
+
+
+
+/////////////////////////////////////   Another Approch  but it giving wa //////////////////////////////////////////////////
+
+#include <bits/stdc++.h>
+using namespace std;
+#define optimize() ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define ll long long int
+#define pi pair<ll, ll>
+
+const ll N = 1e5 + 5;
+vector<pi> v[N];
+ll dis[N];
+
+void dijkstra(int src)
+{
+    priority_queue<pi> pq; // Max-heap (default comparator)
+    pq.push({0, src});     // Push starting node with cost 0
+    dis[src] = 0;          // Starting distance is 0
+
+    while (!pq.empty())
+    {
+        auto [cost, node] = pq.top();
+        pq.pop();
+        //cost = -cost; // Negate back to positive since priority queue stores -cost for max-heap behavior
+
+        // Process neighbors
+        for (pi u : v[node])
+        {
+            int child_node = u.first;
+            int child_cost = u.second;
+
+            // Update if we find a larger distance
+            if (cost + child_cost > dis[child_node])
+            {
+                dis[child_node] = cost + child_cost;
+                //pq.push({-(cost + child_cost), child_node}); // Push with negated cost
+                pq.push({(cost + child_cost), child_node}); 
+            }
+        }
+    }
+}
+
+int main()
+{
+    optimize();
+    ll t;
+    cin >> t;
+    cin.ignore(); // Handle trailing newline after `t`
+
+    for (ll k = 1; k <= t; k++)
+    {
+        ll n, e;
+        cin >> n >> e;
+
+        // Clear graph and initialize distances
+        for (int i = 0; i < n; i++)
+        {
+            v[i].clear();
+        }
+        fill(dis, dis + n, LLONG_MIN); // Reset `dis` efficiently
+
+        vector<ll> cost(n);
+        for (int i = 0; i < n; i++)
+            cin >> cost[i];
+
+        // Input edges
+        while (e--)
+        {
+            int a, b;
+            cin >> a >> b;
+            v[a].push_back({b, cost[b]});
+        }
+
+        // Run Dijkstra for maximum distance
+        dijkstra(0);
+
+        // Find the node with the maximum distance
+        ll mx = LLONG_MIN, index = 0;
+        for (int i = 0; i < n; i++)
+        {
+            if (dis[i] > mx)
+            {
+                mx = dis[i];
+                index = i;
+            }
+        }
+
+        cout << "Case " << k << ": " << mx << " " << index << endl;
+    }
+    return 0;
+}
+
+
+
+
+
+*/
