@@ -1,3 +1,4 @@
+// Top down approch
 #include <bits/stdc++.h>
 using namespace std;
 const int maxN = 1000;
@@ -55,5 +56,36 @@ int main()
 
     cout << knapsack(n, weight, value, w) << endl; // n-1 er jagai n use korle base case e n==0 and weight and value e n-1 use korte hobe
 
+    return 0;
+}
+
+
+// Bottom up ( Best for CP)
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int knapsack(int W, int wt[], int val[], int n) {
+    int dp[n+1][W+1];
+
+    for (int i = 0; i <= n; i++) {
+        for (int w = 0; w <= W; w++) {
+            if (i == 0 || w == 0)
+                dp[i][w] = 0;
+            else if (wt[i-1] <= w)
+                dp[i][w] = max(dp[i-1][w], dp[i-1][w - wt[i-1]] + val[i-1]);
+            else
+                dp[i][w] = dp[i-1][w];
+        }
+    }
+    return dp[n][W];
+}
+
+int main() {
+    int n = 3, W = 50;
+    int wt[] = {10, 20, 30};
+    int val[] = {60, 100, 120};
+
+    cout << "Max Benefit: " << knapsack(W, wt, val, n) << endl;
     return 0;
 }
