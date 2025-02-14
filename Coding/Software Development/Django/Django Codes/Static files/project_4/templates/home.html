@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+<h1>This is home page</h1>
+    
+    <!--THis used when we do not use static input -->
+    <img src="static/scene.jpeg" alt="Scene image">
+
+    <!--THis used when we use static input -->
+    <img src="{% static 'scene.jpeg' %}" alt="Scene image">
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
