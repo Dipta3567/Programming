@@ -1,0 +1,80 @@
+
+h1 {
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .player-container {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .player-container h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  #cart h3, #cart h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  #cart h3 span, #cart h4 span {
+    color: #28a745;
+  }
+  
+  .text-danger {
+    color: #dc3545;
+  }
+  
+  .player-info p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    padding: 5px 0;
+  }
+  
+  hr {
+    margin: 15px 0;
+  }
+  
+  .player-card {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-body p {
+    margin-bottom: 8px;
+  }
+  
+  .btn {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .social-icons a {
+    margin-right: 5px;
+  }
+  
