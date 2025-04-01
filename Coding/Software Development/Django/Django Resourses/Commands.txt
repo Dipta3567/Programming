@@ -27,3 +27,10 @@ For Virtual Setup :
 	8. python manage.py runserver
 
 	9. Deactivate  ( FOR EXIT )
+
+
+install bootstrap for django:
+
+https://github.com/django-crispy-forms/crispy-bootstrap5
+
+in html file we have to write {% load crispy_forms_tags %} and jekane python code in herit korbo okane {{py file | crispy}}
