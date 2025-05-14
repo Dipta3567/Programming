@@ -1,0 +1,1 @@
+The banner is not loading in the chrome, but loading in edge browser
