@@ -76,11 +76,13 @@ class password_validator_project(forms.Form):
     confirm_password = forms.CharField(widget=forms.PasswordInput, validators=[validators.MinLengthValidator(8, message='Password is too short')])
     
     def clean(self):
-        cleandata=super().clean()
-        valpassword=cleandata['password']
-        valconfirm_password=cleandata['confirm_password']
-        if valpassword != valconfirm_password:
+        cleandata = super().clean()
+        valpassword = cleandata.get('password')
+        valconfirm_password = cleandata.get('confirm_password')
+
+        if valpassword and valconfirm_password and valpassword != valconfirm_password:
             raise forms.ValidationError('Password does not match')
+
         return cleandata
     
       
