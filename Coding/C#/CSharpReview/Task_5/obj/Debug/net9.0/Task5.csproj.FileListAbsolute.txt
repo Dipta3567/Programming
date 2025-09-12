@@ -1,0 +1,15 @@
+F:\Programming\Coding\C#\CSharpReview\Task_5\bin\Debug\net9.0\Task5.exe
+F:\Programming\Coding\C#\CSharpReview\Task_5\bin\Debug\net9.0\Task5.deps.json
+F:\Programming\Coding\C#\CSharpReview\Task_5\bin\Debug\net9.0\Task5.runtimeconfig.json
+F:\Programming\Coding\C#\CSharpReview\Task_5\bin\Debug\net9.0\Task5.dll
+F:\Programming\Coding\C#\CSharpReview\Task_5\bin\Debug\net9.0\Task5.pdb
+F:\Programming\Coding\C#\CSharpReview\Task_5\obj\Debug\net9.0\Task5.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming\Coding\C#\CSharpReview\Task_5\obj\Debug\net9.0\Task5.AssemblyInfoInputs.cache
+F:\Programming\Coding\C#\CSharpReview\Task_5\obj\Debug\net9.0\Task5.AssemblyInfo.cs
+F:\Programming\Coding\C#\CSharpReview\Task_5\obj\Debug\net9.0\Task5.csproj.CoreCompileInputs.cache
+F:\Programming\Coding\C#\CSharpReview\Task_5\obj\Debug\net9.0\Task5.sourcelink.json
+F:\Programming\Coding\C#\CSharpReview\Task_5\obj\Debug\net9.0\Task5.dll
+F:\Programming\Coding\C#\CSharpReview\Task_5\obj\Debug\net9.0\refint\Task5.dll
+F:\Programming\Coding\C#\CSharpReview\Task_5\obj\Debug\net9.0\Task5.pdb
+F:\Programming\Coding\C#\CSharpReview\Task_5\obj\Debug\net9.0\Task5.genruntimeconfig.cache
+F:\Programming\Coding\C#\CSharpReview\Task_5\obj\Debug\net9.0\ref\Task5.dll

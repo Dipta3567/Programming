@@ -1,0 +1,15 @@
+F:\Programming\Coding\C#\CSharpReview\Task_2\bin\Debug\net9.0\Task2.exe
+F:\Programming\Coding\C#\CSharpReview\Task_2\bin\Debug\net9.0\Task2.deps.json
+F:\Programming\Coding\C#\CSharpReview\Task_2\bin\Debug\net9.0\Task2.runtimeconfig.json
+F:\Programming\Coding\C#\CSharpReview\Task_2\bin\Debug\net9.0\Task2.dll
+F:\Programming\Coding\C#\CSharpReview\Task_2\bin\Debug\net9.0\Task2.pdb
+F:\Programming\Coding\C#\CSharpReview\Task_2\obj\Debug\net9.0\Task2.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming\Coding\C#\CSharpReview\Task_2\obj\Debug\net9.0\Task2.AssemblyInfoInputs.cache
+F:\Programming\Coding\C#\CSharpReview\Task_2\obj\Debug\net9.0\Task2.AssemblyInfo.cs
+F:\Programming\Coding\C#\CSharpReview\Task_2\obj\Debug\net9.0\Task2.csproj.CoreCompileInputs.cache
+F:\Programming\Coding\C#\CSharpReview\Task_2\obj\Debug\net9.0\Task2.sourcelink.json
+F:\Programming\Coding\C#\CSharpReview\Task_2\obj\Debug\net9.0\Task2.dll
+F:\Programming\Coding\C#\CSharpReview\Task_2\obj\Debug\net9.0\refint\Task2.dll
+F:\Programming\Coding\C#\CSharpReview\Task_2\obj\Debug\net9.0\Task2.pdb
+F:\Programming\Coding\C#\CSharpReview\Task_2\obj\Debug\net9.0\Task2.genruntimeconfig.cache
+F:\Programming\Coding\C#\CSharpReview\Task_2\obj\Debug\net9.0\ref\Task2.dll

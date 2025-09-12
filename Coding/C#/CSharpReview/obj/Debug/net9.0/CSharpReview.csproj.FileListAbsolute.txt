@@ -1,0 +1,15 @@
+F:\Programming\Coding\C#\CSharpReview\bin\Debug\net9.0\CSharpReview.exe
+F:\Programming\Coding\C#\CSharpReview\bin\Debug\net9.0\CSharpReview.deps.json
+F:\Programming\Coding\C#\CSharpReview\bin\Debug\net9.0\CSharpReview.runtimeconfig.json
+F:\Programming\Coding\C#\CSharpReview\bin\Debug\net9.0\CSharpReview.dll
+F:\Programming\Coding\C#\CSharpReview\bin\Debug\net9.0\CSharpReview.pdb
+F:\Programming\Coding\C#\CSharpReview\obj\Debug\net9.0\CSharpReview.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming\Coding\C#\CSharpReview\obj\Debug\net9.0\CSharpReview.AssemblyInfoInputs.cache
+F:\Programming\Coding\C#\CSharpReview\obj\Debug\net9.0\CSharpReview.AssemblyInfo.cs
+F:\Programming\Coding\C#\CSharpReview\obj\Debug\net9.0\CSharpReview.csproj.CoreCompileInputs.cache
+F:\Programming\Coding\C#\CSharpReview\obj\Debug\net9.0\CSharpReview.sourcelink.json
+F:\Programming\Coding\C#\CSharpReview\obj\Debug\net9.0\CSharpReview.dll
+F:\Programming\Coding\C#\CSharpReview\obj\Debug\net9.0\refint\CSharpReview.dll
+F:\Programming\Coding\C#\CSharpReview\obj\Debug\net9.0\CSharpReview.pdb
+F:\Programming\Coding\C#\CSharpReview\obj\Debug\net9.0\CSharpReview.genruntimeconfig.cache
+F:\Programming\Coding\C#\CSharpReview\obj\Debug\net9.0\ref\CSharpReview.dll

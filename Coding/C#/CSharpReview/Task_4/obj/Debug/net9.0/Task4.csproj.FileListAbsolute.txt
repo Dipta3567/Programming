@@ -1,0 +1,15 @@
+F:\Programming\Coding\C#\CSharpReview\Task_4\bin\Debug\net9.0\Task4.exe
+F:\Programming\Coding\C#\CSharpReview\Task_4\bin\Debug\net9.0\Task4.deps.json
+F:\Programming\Coding\C#\CSharpReview\Task_4\bin\Debug\net9.0\Task4.runtimeconfig.json
+F:\Programming\Coding\C#\CSharpReview\Task_4\bin\Debug\net9.0\Task4.dll
+F:\Programming\Coding\C#\CSharpReview\Task_4\bin\Debug\net9.0\Task4.pdb
+F:\Programming\Coding\C#\CSharpReview\Task_4\obj\Debug\net9.0\Task4.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming\Coding\C#\CSharpReview\Task_4\obj\Debug\net9.0\Task4.AssemblyInfoInputs.cache
+F:\Programming\Coding\C#\CSharpReview\Task_4\obj\Debug\net9.0\Task4.AssemblyInfo.cs
+F:\Programming\Coding\C#\CSharpReview\Task_4\obj\Debug\net9.0\Task4.csproj.CoreCompileInputs.cache
+F:\Programming\Coding\C#\CSharpReview\Task_4\obj\Debug\net9.0\Task4.sourcelink.json
+F:\Programming\Coding\C#\CSharpReview\Task_4\obj\Debug\net9.0\Task4.dll
+F:\Programming\Coding\C#\CSharpReview\Task_4\obj\Debug\net9.0\refint\Task4.dll
+F:\Programming\Coding\C#\CSharpReview\Task_4\obj\Debug\net9.0\Task4.pdb
+F:\Programming\Coding\C#\CSharpReview\Task_4\obj\Debug\net9.0\Task4.genruntimeconfig.cache
+F:\Programming\Coding\C#\CSharpReview\Task_4\obj\Debug\net9.0\ref\Task4.dll
